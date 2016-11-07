@@ -9,8 +9,8 @@
   , "bin": { "stylus": "./bin/stylus" }
   , "scripts" : { "prepublish" : "npm prune", "test": "make test" }
   , "dependencies": {
-      "cssom": "0.2.x"
-    , "mkdirp": "0.3.x"
+      "cssom": "~0.3.1"
+    , "mkdirp": "~0.5.1"
     , "debug": "*"
   }
   , "devDependencies": {
